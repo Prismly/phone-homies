@@ -5,19 +5,33 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    //[SerializeField] List<Species> activeSpecies;
+    [SerializeField] List<Species> species;
 
-    public void Awake()
+    private void Awake()
+    {
+        if (Instance == null)
+            Initialize();
+    }
+
+    private void Initialize()
     {
         Instance = this;
     }
 
-    public void Update()
+    public void TransmitMessage(Glyph[] message)
     {
-        
+        foreach(Species s in species)
+        {
+            
+        }
     }
 
-    public void PlayerWin()
+    public void Win()
+    {
+
+    }
+
+    public void Lose()
     {
 
     }

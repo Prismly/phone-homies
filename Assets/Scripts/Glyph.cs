@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Glyph : MonoBehaviour
 {
-    [SerializeField] private Shapes shape;
-    [SerializeField] private Colors color;
+    [SerializeField] private Traits symbol;
 
     [SerializeField] private SpriteRenderer shapeRend;
     [SerializeField] private SpriteRenderer outlineRend;
@@ -14,50 +13,29 @@ public class Glyph : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.A))
-            SetTraits(Shapes.ATOM, Colors.RED);
+            SetTraits(Traits.Shapes.ATOM, Traits.Colors.RED);
         if (Input.GetKeyDown(KeyCode.B))
-            SetTraits(Shapes.PLANET, Colors.ORANGE);
+            SetTraits(Traits.Shapes.PLANET, Traits.Colors.ORANGE);
         if (Input.GetKeyDown(KeyCode.C))
-            SetTraits(Shapes.PLANET, Colors.YELLOW);
+            SetTraits(Traits.Shapes.PLANET, Traits.Colors.YELLOW);
         if (Input.GetKeyDown(KeyCode.D))
-            SetTraits(Shapes.FACE, Colors.GREEN);
+            SetTraits(Traits.Shapes.FACE, Traits.Colors.GREEN);
         if (Input.GetKeyDown(KeyCode.E))
-            SetTraits(Shapes.MOLECULE, Colors.BLUE);
+            SetTraits(Traits.Shapes.MOLECULE, Traits.Colors.BLUE);
         if (Input.GetKeyDown(KeyCode.F))
-            SetTraits(Shapes.ROCKET, Colors.PURPLE);
+            SetTraits(Traits.Shapes.ROCKET, Traits.Colors.PURPLE);
     }
 
-    public enum Shapes
+    private void SetTraits(Traits.Shapes newShape, Traits.Colors newColor)
     {
-        PLANET,
-        STAR,
-        ROCKET,
-        ATOM,
-        NEBULA,
-        MOLECULE,
-        COMET,
-        FACE
-    }
-    public enum Colors
-    {
-        RED,
-        ORANGE,
-        YELLOW,
-        GREEN,
-        BLUE,
-        PURPLE
-    }
+        symbol.Shape = newShape;
+        symbol.Color = newColor;
 
-    private void SetTraits(Shapes newShape, Colors newColor)
-    {
-        shape = newShape;
-        color = newColor;
-
-        ShapeData shapeData = GlyphAtlas.Instance.ShapeDatas[shape];
+        ShapeData shapeData = GlyphAtlas.Instance.ShapeDatas[symbol.Shape];
         shapeRend.sprite = shapeData.ShapeSprite;
         outlineRend.sprite = shapeData.OutlineSprite;
 
-        ColorData colorData = GlyphAtlas.Instance.ColorDatas[color];
+        ColorData colorData = GlyphAtlas.Instance.ColorDatas[symbol.Color];
         shapeRend.color = colorData.LineColor;
         outlineRend.color = colorData.OutlineColor;
         patternRend.sprite = colorData.ColorblindPattern;

@@ -9,11 +9,11 @@ public class GlyphAtlas : MonoBehaviour
     public static GlyphAtlas Instance;
 
     [SerializeField] private ShapeDataPair[] shapeDataPairs;
-    public Dictionary<Glyph.Shapes, ShapeData> ShapeDatas;
+    public Dictionary<Traits.Shapes, ShapeData> ShapeDatas;
     [SerializeField] private ColorDataPair[] colorDataPairs;
-    public Dictionary<Glyph.Colors, ColorData> ColorDatas;
+    public Dictionary<Traits.Colors, ColorData> ColorDatas;
 
-    private void Start()
+    private void Awake()
     {
         if (Instance == null)
             Initialize();
@@ -23,13 +23,13 @@ public class GlyphAtlas : MonoBehaviour
     {
         Instance = this;
 
-        ShapeDatas = new Dictionary<Glyph.Shapes, ShapeData>();
-        ColorDatas = new Dictionary<Glyph.Colors, ColorData>();
+        ShapeDatas = new Dictionary<Traits.Shapes, ShapeData>();
+        ColorDatas = new Dictionary<Traits.Colors, ColorData>();
         
         foreach (ShapeDataPair pair in shapeDataPairs)
-            ShapeDatas.Add(pair.shape, pair.data);
+            ShapeDatas.Add(pair.Shape, pair.Data);
         foreach (ColorDataPair pair in colorDataPairs)
-            ColorDatas.Add(pair.color, pair.data);
+            ColorDatas.Add(pair.Color, pair.Data);
 
         Debug.Log("Initialize Done!");
     }
@@ -37,14 +37,14 @@ public class GlyphAtlas : MonoBehaviour
     [Serializable]
     private class ShapeDataPair
     {
-        [SerializeField] public Glyph.Shapes shape;
-        [SerializeField] public ShapeData data;
+        [SerializeField] public Traits.Shapes Shape;
+        [SerializeField] public ShapeData Data;
     }
 
     [Serializable]
     private class ColorDataPair
     {
-        [SerializeField] public Glyph.Colors color;
-        [SerializeField] public ColorData data;
+        [SerializeField] public Traits.Colors Color;
+        [SerializeField] public ColorData Data;
     }
 }
