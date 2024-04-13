@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72ada1b96f2584447a4ef6dec6e86fa8
+guid: 10a2633784b8199439c7d96f8d46c995
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +32,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 1
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 16
@@ -71,11 +71,11 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -84,11 +84,11 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638485601762514369
+  platformSettingsDirtyTick: 638486280394499812
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,38 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: symbols_Frame_0
+  - name: glyph_shapes
     originalName: 
-    pivot: {x: 0.5, y: -0.31578946}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 70
-      width: 32
-      height: 19
-    spriteID: 19bdaf9fdab989649935c474d276e4ee
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 70}
-  - name: symbols_Frame_1
-    originalName: 
-    pivot: {x: 0.5, y: -0.12}
+    pivot: {x: 0.508, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 26
-      height: 25
-    spriteID: b09b835d0b9c5ed449d72bd27385010a
+      width: 250
+      height: 28
+    spriteID: 6acf74fc09969ec4a819387b8d92e9fe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,18 +141,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: symbols_Frame_2
+  spriteSheetImportData:
+  - name: glyph_shapes_0
     originalName: 
-    pivot: {x: 0.52, y: -0.12}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 37
-      width: 25
-      height: 25
-    spriteID: be6f3d4bd8d12b14ab9dfa2f93e700b1
+      x: 3
+      y: 2
+      width: 32
+      height: 32
+    spriteID: 27c4e8df09bf8e648803d8d319602612
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,40 +161,163 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 37}
-  spriteSheetImportData: []
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_1
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 2
+      width: 32
+      height: 32
+    spriteID: 41938d23af5378544b4307c181107f1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_2
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 2
+      width: 32
+      height: 32
+    spriteID: 4f2d1e95e44477743a6bf34626e835bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_3
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 2
+      width: 32
+      height: 32
+    spriteID: 88b78f651e26fbd48bf46fc2d2dca158
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_4
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 2
+      width: 32
+      height: 32
+    spriteID: af1057da7e3776f449d722022011baaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_5
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 2
+      width: 32
+      height: 32
+    spriteID: 477c91d352e7b1144bcf49478df7be64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_6
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 2
+      width: 32
+      height: 32
+    spriteID: e615b45096d57c847ba6e2282e2d169c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_shapes_7
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 2
+      width: 32
+      height: 32
+    spriteID: e9a6152da20f6284d82d82db370df774
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 1628851309
-    name: symbols
+    guid: 558911841
+    name: glyph_shapes
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: symbols_Frame_0
+    - name: glyph_shapes
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 6
-        width: 32
-        height: 19
-      spriteId: 19bdaf9fdab989649935c474d276e4ee
-    - name: symbols_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 3
-        y: 3
-        width: 26
-        height: 25
-      spriteId: b09b835d0b9c5ed449d72bd27385010a
-    - name: symbols_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 3
-        y: 3
-        width: 25
-        height: 25
-      spriteId: be6f3d4bd8d12b14ab9dfa2f93e700b1
+        x: 1
+        y: 2
+        width: 446
+        height: 28
+      spriteId: 6acf74fc09969ec4a819387b8d92e9fe
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -244,4 +348,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 448, y: 32}

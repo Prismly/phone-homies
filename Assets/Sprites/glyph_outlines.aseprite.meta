@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc526624dbd288f4cb0bcf733f2ab423
+guid: c0978155198df4e44aa900e4f0a6a85c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -84,7 +84,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638486284501892058
+  platformSettingsDirtyTick: 638486280394499812
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,118 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: speech_bubble
+  - name: glyph_outlines
     originalName: 
-    pivot: {x: -0.83333343, y: 1.763158}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 55
-      y: 455
-      width: 24
-      height: 19
-    spriteID: c8d46d48f77b3cd43875940175f2d391
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 55, y: 455}
-  - name: speech_bubble_Frame_1
-    originalName: 
-    pivot: {x: -0.023255792, y: 1.0142857}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 455
-      width: 43
-      height: 35
-    spriteID: 382173cc41a46914fbe70213d27ebcad
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 455}
-  - name: speech_bubble_Frame_2
-    originalName: 
-    pivot: {x: 0.2903226, y: 0.7129629}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 82
-      width: 62
-      height: 54
-    spriteID: ba7b338cad5ddb648b9fd023c84e44ae
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 100, y: 82}
-  - name: speech_bubble_Frame_3
-    originalName: 
-    pivot: {x: 0.42857146, y: 0.5928571}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 4
-      width: 77
-      height: 70
-    spriteID: 79c7cf4898dfb254587dee09eeaae2ca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 100, y: 4}
-  - name: speech_bubble_Frame_4
-    originalName: 
-    pivot: {x: 0.47619048, y: 0.5123457}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 277
-      width: 84
-      height: 81
-    spriteID: edba4d24da41fe244a9be8dfd9ed03de
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 277}
-  - name: speech_bubble_Frame_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.50793654, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 88
-      height: 83
-    spriteID: 6bf7810d43d92ac458cd72afecb9ebf1
+      width: 252
+      height: 30
+    spriteID: 94a271af1032b634085d0931b0a21303
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,18 +141,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: speech_bubble_Frame_6
+  spriteSheetImportData:
+  - name: glyph_outlines_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 95
-      width: 88
-      height: 83
-    spriteID: fa50ffdf252f0ee4f8edc6adbbdfe49c
+      y: 3
+      width: 32
+      height: 32
+    spriteID: 075c84f6aabd14642b3621477ba0d9b7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,19 +161,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 95}
-  - name: speech_bubble_Frame_7
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
-    alignment: 9
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 186
-      width: 88
-      height: 83
-    spriteID: 130b2899bbde83f46a80bca44cf421f0
+      x: 36
+      y: 3
+      width: 32
+      height: 32
+    spriteID: 75b72598ad91e1b44b3949584f22ef73
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,19 +181,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 186}
-  - name: speech_bubble_Frame_8
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_2
     originalName: 
-    pivot: {x: 0.47619048, y: 0.5123457}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 366
-      width: 84
-      height: 81
-    spriteID: 702398c73d8b81144a1dd48c09758a83
+      x: 68
+      y: 3
+      width: 32
+      height: 32
+    spriteID: 24aad77cc2a6c0643b0aa8fa89297990
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,88 +201,123 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 366}
-  spriteSheetImportData: []
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 3
+      width: 32
+      height: 32
+    spriteID: 9cc03fec44315e34db5a5823364d948a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 3
+      width: 32
+      height: 32
+    spriteID: a7c153c11087f5947aed8a559c61e5ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 3
+      width: 32
+      height: 32
+    spriteID: e87f63c65b3bc0642837349ac7b53500
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 3
+      width: 32
+      height: 32
+    spriteID: 1be3183a02050ca4dbb8deea495dbea9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: glyph_outlines_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 3
+      width: 32
+      height: 32
+    spriteID: 2bd56290d4196c948b739b5a8c431952
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -1819523411
-    name: speech_bubble
+    guid: -2121572778
+    name: glyph_outlines
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: speech_bubble_Frame_0
+    - name: glyph_outlines
       frameIndex: 0
       cellRect:
-        x: 64
-        y: 8
-        width: 24
-        height: 19
-      spriteId: c8d46d48f77b3cd43875940175f2d391
-    - name: speech_bubble_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 45
-        y: 6
-        width: 43
-        height: 35
-      spriteId: 382173cc41a46914fbe70213d27ebcad
-    - name: speech_bubble_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 26
-        y: 3
-        width: 62
-        height: 54
-      spriteId: ba7b338cad5ddb648b9fd023c84e44ae
-    - name: speech_bubble_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 11
-        y: 0
-        width: 77
-        height: 70
-      spriteId: 79c7cf4898dfb254587dee09eeaae2ca
-    - name: speech_bubble_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 4
-        y: 0
-        width: 84
-        height: 81
-      spriteId: edba4d24da41fe244a9be8dfd9ed03de
-    - name: speech_bubble_Frame_5
-      frameIndex: 5
-      cellRect:
         x: 0
-        y: 0
-        width: 88
-        height: 83
-      spriteId: 6bf7810d43d92ac458cd72afecb9ebf1
-    - name: speech_bubble_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 0
-        y: 0
-        width: 88
-        height: 83
-      spriteId: fa50ffdf252f0ee4f8edc6adbbdfe49c
-    - name: speech_bubble_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 0
-        y: 0
-        width: 88
-        height: 83
-      spriteId: 130b2899bbde83f46a80bca44cf421f0
-    - name: speech_bubble_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 4
-        y: 0
-        width: 84
-        height: 81
-      spriteId: 702398c73d8b81144a1dd48c09758a83
+        y: 1
+        width: 448
+        height: 30
+      spriteId: 94a271af1032b634085d0931b0a21303
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -412,4 +348,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 88, y: 83}
+  canvasSize: {x: 448, y: 32}
