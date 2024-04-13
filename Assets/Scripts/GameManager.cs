@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static GameManager Instance;
+    //[SerializeField] List<Species> activeSpecies;
+
+    public void Awake()
+    {
+        Instance = this;
+    }
+
+    public void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayerWin()
     {
-        
+
     }
 }
