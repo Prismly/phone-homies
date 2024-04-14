@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    [SerializeField] List<Species> species;
+    [SerializeField] private List<Species> species;
 
     private void Awake()
     {
