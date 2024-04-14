@@ -151,8 +151,8 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 18
-      height: 18
+      width: 22
+      height: 22
     spriteID: 04a3be4b2991b2649a32b3cc8fcfb902
     spriteBone: []
     spriteOutline: []
@@ -169,10 +169,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 22
+      x: 26
       y: 4
-      width: 18
-      height: 18
+      width: 22
+      height: 22
     spriteID: 82884197e3103284f9c08ddf6f921727
     spriteBone: []
     spriteOutline: []
@@ -189,10 +189,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 40
+      x: 48
       y: 4
-      width: 18
-      height: 18
+      width: 22
+      height: 22
     spriteID: f752e9cb122930743a9f065fafd3c850
     spriteBone: []
     spriteOutline: []
@@ -209,10 +209,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 58
+      x: 70
       y: 4
-      width: 18
-      height: 18
+      width: 22
+      height: 22
     spriteID: b23db966f865f384fa2433d9b0db6b5f
     spriteBone: []
     spriteOutline: []
@@ -229,10 +229,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 76
+      x: 92
       y: 4
-      width: 18
-      height: 18
+      width: 22
+      height: 22
     spriteID: 4ffd06fff881b9c47a5c0abb0fb28e24
     spriteBone: []
     spriteOutline: []
@@ -249,11 +249,31 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 94
+      x: 114
       y: 4
-      width: 18
-      height: 18
+      width: 22
+      height: 22
     spriteID: 1ce805a5a838faf4cba42faca22cba1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: alien_icons_6
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 4
+      width: 22
+      height: 22
+    spriteID: aa6991bb75e6ecb46950bc466c5f313a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -275,8 +295,8 @@ ScriptedImporter:
       cellRect:
         x: 0
         y: 0
-        width: 126
-        height: 18
+        width: 154
+        height: 22
       spriteId: a1f7fb854ecde734c8a984c1f017a6ec
     linkedCells: []
     parentIndex: -1
@@ -308,4 +328,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 126, y: 18}
+  canvasSize: {x: 154, y: 22}
