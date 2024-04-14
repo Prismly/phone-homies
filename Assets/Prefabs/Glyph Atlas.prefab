@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8560456576579931920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 425769610273098608}
+  - component: {fileID: 8678414974528332002}
+  m_Layer: 0
+  m_Name: Glyph Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &425769610273098608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560456576579931920}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8678414974528332002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560456576579931920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05b74dce7459d645b13da5117904319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapeDataPairs:
+  - Shape: 0
+    Data: {fileID: 11400000, guid: eaf028b1df052144098355de23ccfaee, type: 2}
+  - Shape: 1
+    Data: {fileID: 11400000, guid: e5825919363a03e4fab41fc4197fe13d, type: 2}
+  - Shape: 2
+    Data: {fileID: 11400000, guid: a80f709f3c125dd4e9ea8bb924cf0c0c, type: 2}
+  - Shape: 3
+    Data: {fileID: 11400000, guid: 18d0afe1a28b79b428e732684d68252f, type: 2}
+  - Shape: 4
+    Data: {fileID: 11400000, guid: 14ffcddfa24d2fe4db6426cd02776647, type: 2}
+  - Shape: 5
+    Data: {fileID: 11400000, guid: 9e6eb347311882640b9dac52f5f09d7b, type: 2}
+  - Shape: 6
+    Data: {fileID: 11400000, guid: a4abaa6ddfb5b384f91cff9312ab0784, type: 2}
+  - Shape: 7
+    Data: {fileID: 11400000, guid: 6384ec86e1ac5a14f9706de709343382, type: 2}
+  colorDataPairs:
+  - Color: 0
+    Data: {fileID: 11400000, guid: 6c44ef7629e127b43b07ca6450005bec, type: 2}
+  - Color: 1
+    Data: {fileID: 11400000, guid: 72ee1126bc5dd8445b5ee86e268791ae, type: 2}
+  - Color: 2
+    Data: {fileID: 11400000, guid: 0dca6876c06b9e946a979b41d50192b0, type: 2}
+  - Color: 3
+    Data: {fileID: 11400000, guid: f13644acf89d82e4bbb48448616c6a4c, type: 2}
+  - Color: 4
+    Data: {fileID: 11400000, guid: 53653e9bc12d0e948bd28e35288c378b, type: 2}
+  - Color: 5
+    Data: {fileID: 11400000, guid: ccd9a3cc68b274f45b009c19d3e11aaf, type: 2}

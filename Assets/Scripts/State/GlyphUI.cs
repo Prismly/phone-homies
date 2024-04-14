@@ -7,9 +7,9 @@ public class GlyphUI : MonoBehaviour
 {
     [SerializeField] private Traits symbol;
 
-    [SerializeField] private Image shapeRend;
-    [SerializeField] private Image outlineRend;
-    [SerializeField] private Image patternRend;
+    [SerializeField] private Image shapeImg;
+    [SerializeField] private Image outlineImg;
+    [SerializeField] private Image patternImg;
 
     private void Update()
     {
@@ -27,18 +27,28 @@ public class GlyphUI : MonoBehaviour
             SetTraits(Traits.Shapes.ROCKET, Traits.Colors.PURPLE);
     }
 
-    private void SetTraits(Traits.Shapes newShape, Traits.Colors newColor)
+    public void SetTraits(Traits.Shapes newShape, Traits.Colors newColor)
     {
         symbol.Shape = newShape;
         symbol.Color = newColor;
 
         ShapeData shapeData = GlyphAtlas.Instance.ShapeDatas[symbol.Shape];
-        shapeRend.sprite = shapeData.ShapeSprite;
-        outlineRend.sprite = shapeData.OutlineSprite;
+        shapeImg.sprite = shapeData.ShapeSprite;
+        outlineImg.sprite = shapeData.OutlineSprite;
 
         ColorData colorData = GlyphAtlas.Instance.ColorDatas[symbol.Color];
-        shapeRend.color = colorData.LineColor;
-        outlineRend.color = colorData.OutlineColor;
-        patternRend.sprite = colorData.ColorblindPattern;
+        shapeImg.color = colorData.LineColor;
+        outlineImg.color = colorData.OutlineColor;
+        patternImg.sprite = colorData.ColorblindPattern;
+    }
+
+    public Traits.Shapes GetShape()
+    {
+        return symbol.Shape;
+    }
+
+    public Traits.Colors GetColor()
+    {
+        return symbol.Color;
     }
 }
