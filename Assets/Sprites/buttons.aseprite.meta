@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10a2633784b8199439c7d96f8d46c995
+guid: 041f9628875caf6469225d7f50bca9d6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638486280394499812
+  platformSettingsDirtyTick: 638486502945518558
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: glyph_shapes
+  - name: buttons
     originalName: 
-    pivot: {x: 0.508, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 250
-      height: 28
-    spriteID: 6acf74fc09969ec4a819387b8d92e9fe
+      width: 208
+      height: 50
+    spriteID: 6785a8586cdf40940bf677fa33938de7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,18 +142,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: glyph_shapes_0
+  - name: beige_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 3, y: 6, z: 3, w: 3}
     rect:
       serializedVersion: 2
-      x: 3
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 27c4e8df09bf8e648803d8d319602612
+      x: 4
+      y: 15
+      width: 38
+      height: 39
+    spriteID: 2ab1ab980450a8946aff98cb27794a50
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,18 +162,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_1
+  - name: beige_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 3, y: 5, z: 3, w: 4}
     rect:
       serializedVersion: 2
-      x: 35
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 41938d23af5378544b4307c181107f1b
+      x: 42
+      y: 15
+      width: 38
+      height: 39
+    spriteID: 6bde892aeaa0baf4b8b968e2d5544506
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,18 +182,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_2
+  - name: red_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 67
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 4f2d1e95e44477743a6bf34626e835bc
+      x: 80
+      y: 29
+      width: 22
+      height: 25
+    spriteID: 82f79ac78e0ea4b4d95f8dd0880f07d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,18 +202,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_3
+  - name: red_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 99
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 88b78f651e26fbd48bf46fc2d2dca158
+      x: 102
+      y: 29
+      width: 22
+      height: 25
+    spriteID: 97415bf939d11224cad3c8f6119ec01a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,18 +222,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_4
+  - name: orange_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 131
-      y: 2
-      width: 32
-      height: 32
-    spriteID: af1057da7e3776f449d722022011baaf
+      x: 124
+      y: 29
+      width: 22
+      height: 25
+    spriteID: 2a4bf959bcecf0643aa85908b93d60b6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,18 +242,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_5
+  - name: orange_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 163
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 477c91d352e7b1144bcf49478df7be64
+      x: 146
+      y: 29
+      width: 22
+      height: 25
+    spriteID: 3f00889045bcc7841be7b46d0b2375ab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,18 +262,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_6
+  - name: yellow_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 195
-      y: 2
-      width: 32
-      height: 32
-    spriteID: e615b45096d57c847ba6e2282e2d169c
+      x: 168
+      y: 29
+      width: 22
+      height: 25
+    spriteID: caf3f67395548fe429b0e502905d2610
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,18 +282,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_7
+  - name: yellow_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 227
-      y: 2
-      width: 32
-      height: 32
-    spriteID: e9a6152da20f6284d82d82db370df774
+      x: 190
+      y: 29
+      width: 22
+      height: 25
+    spriteID: d92a85019724c3d42b9b88fe8d9becdd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,18 +302,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_8
+  - name: green_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 259
-      y: 2
-      width: 32
-      height: 32
-    spriteID: b04cbb51375f4a74ab7ab1d7ae879960
+      x: 80
+      y: 4
+      width: 22
+      height: 25
+    spriteID: c7135c404a7392a48a61d5e5ba7012d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,18 +322,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_9
+  - name: green_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 291
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 279d306dcc44e384895d3c075fa28b3d
+      x: 102
+      y: 4
+      width: 22
+      height: 25
+    spriteID: b6f8b5d0d68d2c94e906860138edc964
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -342,18 +342,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_10
+  - name: blue_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 323
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 77d15b91874c55248b036d77a39c2ab6
+      x: 124
+      y: 4
+      width: 22
+      height: 25
+    spriteID: 20ec2fce91fbb284b96f3af10203aecb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -362,18 +362,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_11
+  - name: blue_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 355
-      y: 2
-      width: 32
-      height: 32
-    spriteID: 69a9e31067b651849b0cfe3dd61fe5b4
+      x: 146
+      y: 4
+      width: 22
+      height: 25
+    spriteID: eeb8b0b4413fe67499f245f27e6d6baa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -382,18 +382,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_12
+  - name: purple_button_up
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 387
-      y: 2
-      width: 32
-      height: 32
-    spriteID: a69b8193a225d504cb89c194cfa194fb
+      x: 168
+      y: 4
+      width: 22
+      height: 25
+    spriteID: 2ef7774c43ab92d4cab5596d408b11a8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -402,18 +402,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_13
+  - name: purple_button_down
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 419
-      y: 2
-      width: 32
-      height: 32
-    spriteID: c96ffee4a1e5da84b98d5315140ad4de
+      x: 190
+      y: 4
+      width: 22
+      height: 25
+    spriteID: c45c64ac0e7505746aaf4a35a41a906b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -424,20 +424,20 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 558911841
-    name: glyph_shapes
+    guid: 1669559277
+    name: buttons
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: glyph_shapes
+    - name: buttons
       frameIndex: 0
       cellRect:
-        x: 1
-        y: 2
-        width: 446
-        height: 28
-      spriteId: 6acf74fc09969ec4a819387b8d92e9fe
+        x: 0
+        y: 0
+        width: 208
+        height: 50
+      spriteId: 6785a8586cdf40940bf677fa33938de7
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -468,4 +468,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 448, y: 32}
+  canvasSize: {x: 208, y: 50}

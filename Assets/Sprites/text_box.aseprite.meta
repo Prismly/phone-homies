@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f96acafaf514958469c94118d63504d6
+guid: 95f1030e11634694394129d619e1f869
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,10 +32,10 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 1
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 16
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638486502625768788
+  platformSettingsDirtyTick: 638486515665586747
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: space_bg
+  - name: text_box
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 384
-      height: 216
-    spriteID: 9b9fe95d145bc2e4f86343563387302b
+      width: 199
+      height: 39
+    spriteID: 033c802d5167a7d4682c97e19dfc8551
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,20 +144,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1657265886
-    name: space_bg
+    guid: -2085744205
+    name: text_box
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: space_bg
+    - name: text_box
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 384
-        height: 216
-      spriteId: 9b9fe95d145bc2e4f86343563387302b
+        width: 199
+        height: 39
+      spriteId: 033c802d5167a7d4682c97e19dfc8551
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -188,4 +188,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 384, y: 216}
+  canvasSize: {x: 199, y: 39}
