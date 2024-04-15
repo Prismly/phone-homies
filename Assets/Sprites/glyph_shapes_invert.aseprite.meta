@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10a2633784b8199439c7d96f8d46c995
+guid: 8e9b0081d29bb354389745480522d4e8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -142,18 +142,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: glyph_shapes_0
+  - name: glyph_shapes_invert_0
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3
-      y: 2
+      x: 4
+      y: 4
       width: 32
       height: 32
-    spriteID: 27c4e8df09bf8e648803d8d319602612
+    spriteID: de196439548e76545adb44c4f9dd122b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,18 +162,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_1
+  - name: glyph_shapes_invert_1
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 35
-      y: 2
+      x: 36
+      y: 4
       width: 32
       height: 32
-    spriteID: 41938d23af5378544b4307c181107f1b
+    spriteID: 3492c71ddd8c21f4bbe91d867bb6189d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,18 +182,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_2
+  - name: glyph_shapes_invert_2
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 67
-      y: 2
+      x: 68
+      y: 4
       width: 32
       height: 32
-    spriteID: 4f2d1e95e44477743a6bf34626e835bc
+    spriteID: 12ba22dff1b71784fb3f92eb19076129
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,18 +202,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_3
+  - name: glyph_shapes_invert_3
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 99
-      y: 2
+      x: 100
+      y: 4
       width: 32
       height: 32
-    spriteID: 88b78f651e26fbd48bf46fc2d2dca158
+    spriteID: a97f7f30a9d4516478472dbbf4f6deed
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,18 +222,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_4
+  - name: glyph_shapes_invert_4
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 131
-      y: 2
+      x: 132
+      y: 4
       width: 32
       height: 32
-    spriteID: af1057da7e3776f449d722022011baaf
+    spriteID: a20b56da4768f8d45a17e6626bc8397e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,18 +242,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_5
+  - name: glyph_shapes_invert_5
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 163
-      y: 2
+      x: 164
+      y: 4
       width: 32
       height: 32
-    spriteID: 477c91d352e7b1144bcf49478df7be64
+    spriteID: 19be49bba78745c44bce38031443948e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,18 +262,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_6
+  - name: glyph_shapes_invert_6
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 195
-      y: 2
+      x: 196
+      y: 4
       width: 32
       height: 32
-    spriteID: e615b45096d57c847ba6e2282e2d169c
+    spriteID: 779382941593d1d47b251c2336ff6dbd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,18 +282,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_7
+  - name: glyph_shapes_invert_7
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 227
-      y: 2
+      x: 228
+      y: 4
       width: 32
       height: 32
-    spriteID: e9a6152da20f6284d82d82db370df774
+    spriteID: 7d1d46234890bb34387bf6153814676a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,18 +302,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_8
+  - name: glyph_shapes_invert_8
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 259
-      y: 2
+      x: 260
+      y: 4
       width: 32
       height: 32
-    spriteID: b04cbb51375f4a74ab7ab1d7ae879960
+    spriteID: bf24d48c4d8748c41baf680e9eff6b39
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,18 +322,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_9
+  - name: glyph_shapes_invert_9
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 291
-      y: 2
+      x: 292
+      y: 4
       width: 32
       height: 32
-    spriteID: 279d306dcc44e384895d3c075fa28b3d
+    spriteID: 24fedf001ad6aec4aa4e1bde044645c6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -342,18 +342,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_10
+  - name: glyph_shapes_invert_10
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 323
-      y: 2
+      x: 324
+      y: 4
       width: 32
       height: 32
-    spriteID: 77d15b91874c55248b036d77a39c2ab6
+    spriteID: 545cce257d5468d4a8a1c24dde72270e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -362,18 +362,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_11
+  - name: glyph_shapes_invert_11
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 355
-      y: 2
+      x: 356
+      y: 4
       width: 32
       height: 32
-    spriteID: 69a9e31067b651849b0cfe3dd61fe5b4
+    spriteID: c618a84a301d35b4cac87290bf332a84
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -382,18 +382,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_12
+  - name: glyph_shapes_invert_12
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 387
-      y: 2
+      x: 388
+      y: 4
       width: 32
       height: 32
-    spriteID: a69b8193a225d504cb89c194cfa194fb
+    spriteID: 1cf32a438efaece43adaec9836483964
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -402,18 +402,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: glyph_shapes_13
+  - name: glyph_shapes_invert_13
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 419
-      y: 2
+      x: 420
+      y: 4
       width: 32
       height: 32
-    spriteID: c96ffee4a1e5da84b98d5315140ad4de
+    spriteID: 2aca6eb67fb749a4da85ef93c8c469ad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -424,20 +424,20 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 558911841
-    name: glyph_shapes
+    guid: 1494280468
+    name: glyph_shapes_invert
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: glyph_shapes
+    - name: glyph_shapes_invert
       frameIndex: 0
       cellRect:
-        x: 1
-        y: 2
-        width: 446
-        height: 28
-      spriteId: 6acf74fc09969ec4a819387b8d92e9fe
+        x: 0
+        y: 0
+        width: 448
+        height: 32
+      spriteId: 2092bffd4ac82d44da152f5e7bda7813
     linkedCells: []
     parentIndex: -1
   platformSettings:
