@@ -9,9 +9,9 @@ public class GlyphAtlas : MonoBehaviour
     public static GlyphAtlas Instance;
 
     [SerializeField] private ShapeDataPair[] shapeDataPairs;
-    public Dictionary<Traits.Shapes, ShapeData> ShapeDatas;
+    public Dictionary<Symbol.Shapes, ShapeData> ShapeDatas;
     [SerializeField] private ColorDataPair[] colorDataPairs;
-    public Dictionary<Traits.Colors, ColorData> ColorDatas;
+    public Dictionary<Symbol.Colors, ColorData> ColorDatas;
 
     private void Awake()
     {
@@ -23,8 +23,8 @@ public class GlyphAtlas : MonoBehaviour
     {
         Instance = this;
 
-        ShapeDatas = new Dictionary<Traits.Shapes, ShapeData>();
-        ColorDatas = new Dictionary<Traits.Colors, ColorData>();
+        ShapeDatas = new Dictionary<Symbol.Shapes, ShapeData>();
+        ColorDatas = new Dictionary<Symbol.Colors, ColorData>();
         
         foreach (ShapeDataPair pair in shapeDataPairs)
             ShapeDatas.Add(pair.Shape, pair.Data);
@@ -37,14 +37,14 @@ public class GlyphAtlas : MonoBehaviour
     [Serializable]
     private class ShapeDataPair
     {
-        [SerializeField] public Traits.Shapes Shape;
+        [SerializeField] public Symbol.Shapes Shape;
         [SerializeField] public ShapeData Data;
     }
 
     [Serializable]
     private class ColorDataPair
     {
-        [SerializeField] public Traits.Colors Color;
+        [SerializeField] public Symbol.Colors Color;
         [SerializeField] public ColorData Data;
     }
 }

@@ -4,29 +4,29 @@ using UnityEngine;
 
 public class Glyph : MonoBehaviour
 {
-    [SerializeField] private Traits symbol;
+    [SerializeField] private Symbol symbol;
 
     [SerializeField] private SpriteRenderer shapeRend;
     [SerializeField] private SpriteRenderer outlineRend;
     [SerializeField] private SpriteRenderer patternRend;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-            SetTraits(Traits.Shapes.ATOM, Traits.Colors.RED);
-        if (Input.GetKeyDown(KeyCode.B))
-            SetTraits(Traits.Shapes.PLANET, Traits.Colors.ORANGE);
-        if (Input.GetKeyDown(KeyCode.C))
-            SetTraits(Traits.Shapes.PLANET, Traits.Colors.YELLOW);
-        if (Input.GetKeyDown(KeyCode.D))
-            SetTraits(Traits.Shapes.FACE, Traits.Colors.GREEN);
-        if (Input.GetKeyDown(KeyCode.E))
-            SetTraits(Traits.Shapes.MOLECULE, Traits.Colors.BLUE);
-        if (Input.GetKeyDown(KeyCode.F))
-            SetTraits(Traits.Shapes.ROCKET, Traits.Colors.PURPLE);
-    }
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.A))
+    //        SetTraits(Symbol.Shapes.ATOM, Symbol.Colors.RED);
+    //    if (Input.GetKeyDown(KeyCode.B))
+    //        SetTraits(Symbol.Shapes.PLANET, Symbol.Colors.ORANGE);
+    //    if (Input.GetKeyDown(KeyCode.C))
+    //        SetTraits(Symbol.Shapes.PLANET, Symbol.Colors.YELLOW);
+    //    if (Input.GetKeyDown(KeyCode.D))
+    //        SetTraits(Symbol.Shapes.FACE, Symbol.Colors.GREEN);
+    //    if (Input.GetKeyDown(KeyCode.E))
+    //        SetTraits(Symbol.Shapes.MOLECULE, Symbol.Colors.BLUE);
+    //    if (Input.GetKeyDown(KeyCode.F))
+    //        SetTraits(Symbol.Shapes.ROCKET, Symbol.Colors.PURPLE);
+    //}
 
-    private void SetTraits(Traits.Shapes newShape, Traits.Colors newColor)
+    private void SetTraits(Symbol.Shapes newShape, Symbol.Colors newColor)
     {
         symbol.Shape = newShape;
         symbol.Color = newColor;

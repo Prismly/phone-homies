@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class PairFlipTranslation : Translations
+[CreateAssetMenu(menuName = "Translations/Pair Flip")]
+public class PairFlipTranslation : Translation
 {
-    public override Traits[] changeInput(Traits[] message)
+    public override Symbol[] changeInput(Symbol[] message)
     {
         for (int i = 0; i < message.Length; i++)
         {
@@ -37,7 +37,7 @@ public class PairFlipTranslation : Translations
                     character = 6;
                     break;
             }
-            message[i].Shape = (Traits.Shapes)character;
+            message[i].Shape = (Symbol.Shapes)character;
         }
 
         return message;

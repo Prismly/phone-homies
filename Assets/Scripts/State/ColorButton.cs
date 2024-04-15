@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColorButton : MonoBehaviour
 {
-    [SerializeField] private Traits.Colors color;
+    [SerializeField] private Symbol.Colors color;
 
     public void OnClick()
     {

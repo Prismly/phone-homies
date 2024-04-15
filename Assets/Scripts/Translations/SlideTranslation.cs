@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class SlideTranslation : Translations
+[CreateAssetMenu(menuName = "Translations/Slide")]
+public class SlideTranslation : Translation
 {
     [SerializeField] private int magnitude;
 
-    public override Traits[] changeInput(Traits[] message)
+    public override Symbol[] changeInput(Symbol[] message)
     {
         for (int i = 0; i < magnitude; i++)
         {
-            List<Traits> m = message.ToList();
-            Traits value = m[0];
+            List<Symbol> m = message.ToList();
+            Symbol value = m[0];
             m.RemoveAt(0);
             m.Add(value);
             message = m.ToArray();
