@@ -5,9 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Hooks/Contains Color")]
 public class ColorHook : Hook
 {
-    [SerializeField] private Traits.Colors color;
+    [SerializeField] private Symbol.Colors color;
 
-    public override bool Consider(Traits[] message)
+    public override bool Consider(Symbol[] message)
     {
         for (int i = 0; i < message.Length; i++)
         {

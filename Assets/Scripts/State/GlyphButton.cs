@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GlyphButton : MonoBehaviour
 {
-    [SerializeField] private Traits.Shapes shape;
+    [SerializeField] private Symbol.Shapes shape;
 
     public void OnClick()
     {

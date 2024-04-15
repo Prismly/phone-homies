@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class Traits
+public class Symbol
 {
     public enum Shapes
     {
@@ -29,4 +29,10 @@ public class Traits
 
     public Shapes Shape;
     public Colors Color;
+
+    public Symbol(Shapes shape, Colors color)
+    {
+        Shape = shape;
+        Color = color;
+    }
 }

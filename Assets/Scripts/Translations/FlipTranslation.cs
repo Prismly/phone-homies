@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Translations/Flip")]
 public class FlipTranslation : Translation
 {
-    public override Traits[] changeInput(Traits[] message)
+    public override Symbol[] changeInput(Symbol[] message)
     {
         for (int i = 0; i < message.Length; i++)
         {
@@ -37,7 +37,7 @@ public class FlipTranslation : Translation
                     character = 0;
                     break;
             }
-            message[i].Shape = (Traits.Shapes)character;
+            message[i].Shape = (Symbol.Shapes)character;
         }
 
         return message;

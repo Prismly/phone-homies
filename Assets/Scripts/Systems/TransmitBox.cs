@@ -18,7 +18,7 @@ public class TransmitBox : MonoBehaviour
         Instance = this;
     }
 
-    public Traits.Colors ActiveColor = Traits.Colors.RED;
+    public Symbol.Colors ActiveColor = Symbol.Colors.RED;
     [SerializeField] private GlyphUI[] glyphButtonIcons;
     [SerializeField] private GameObject glyphUIPref;
     [SerializeField] private RectTransform glyphArray;
@@ -29,7 +29,7 @@ public class TransmitBox : MonoBehaviour
         UpdateButtonIcons();
     }
 
-    public void ChangeActiveColor(Traits.Colors newColor)
+    public void ChangeActiveColor(Symbol.Colors newColor)
     {
         ActiveColor = newColor;
         UpdateButtonIcons();
@@ -50,7 +50,7 @@ public class TransmitBox : MonoBehaviour
         bufferedMessage.RemoveAt(bufferedMessage.Count - 1);
     }
 
-    public bool AppendGlyph(Traits.Shapes shape, Traits.Colors color)
+    public bool AppendGlyph(Symbol.Shapes shape, Symbol.Colors color)
     {
         if (bufferedMessage.Count >= 6)
             return false;
@@ -64,5 +64,10 @@ public class TransmitBox : MonoBehaviour
         bufferedMessage.Add(newGlyphUI);
 
         return true;
+    }
+
+    public void SendMessage()
+    {
+
     }
 }

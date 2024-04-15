@@ -8,12 +8,12 @@ public class SlideTranslation : Translation
 {
     [SerializeField] private int magnitude;
 
-    public override Traits[] changeInput(Traits[] message)
+    public override Symbol[] changeInput(Symbol[] message)
     {
         for (int i = 0; i < message.Length; i++)
         {
-            List<Traits> m = message.ToList();
-            Traits value = m[i];
+            List<Symbol> m = message.ToList();
+            Symbol value = m[i];
             m.RemoveAt(i);
             m.Insert((i - magnitude) % message.Length, value);
             message = m.ToArray();
