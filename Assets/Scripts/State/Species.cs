@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class Species : MonoBehaviour
 {
+    [SerializeField] public int priority;
+    [SerializeField] public List<Translations> translations;
+    [SerializeField] public Traits.Colors allegiance;
 
-    public enum HookResponses
+    public bool ConsiderMessage()
     {
-        RESPOND,
-        PASS,
-        DROP
-    }
-
-    public HookResponses ConsiderMessage()
-    {
-        return HookResponses.PASS;
+        return true;
     }
 
     public Traits[] ReceiveMessage()
