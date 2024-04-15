@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48b521881a16e7048ba99dd845c19354, type: 3}
   m_Name: Reverse Slide 2
   m_EditorClassIdentifier: 
-  magnitude: 0
+  magnitude: 2

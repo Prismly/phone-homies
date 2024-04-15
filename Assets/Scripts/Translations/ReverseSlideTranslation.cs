@@ -15,7 +15,7 @@ public class ReverseSlideTranslation : Translations
             List<Traits> m = message.ToList();
             Traits value = m[i];
             m.RemoveAt(i);
-            m.Insert((i + magnitude) % message.Length, value);
+            m.Insert(((i + magnitude) % message.Length) + message.Length, value);
             message = m.ToArray();
         }
 

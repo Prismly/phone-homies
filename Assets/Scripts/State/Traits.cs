@@ -29,4 +29,10 @@ public class Traits
 
     public Shapes Shape;
     public Colors Color;
+
+    public Traits(Shapes shape, Colors color)
+    {
+        Shape = shape;
+        Color = color;
+    }
 }
