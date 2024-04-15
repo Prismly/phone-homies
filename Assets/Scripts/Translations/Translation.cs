@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class Translation : ScriptableObject
 {
-    public abstract Symbol[] changeInput(Symbol[] message);
+    public abstract Symbol[] ChangeInput(Symbol[] message);
 }

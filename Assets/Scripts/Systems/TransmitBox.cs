@@ -91,6 +91,7 @@ public class TransmitBox : MonoBehaviour
         ClearAllGlyphs();
 
         // Transmit Message to the GameManager here!
-        GameManager.Instance.TransmitMessage(message);
+        MessageLog.Instance.AddMessage();
+        GameManager.Instance.TransmitMessage(message, null);
     }
 }

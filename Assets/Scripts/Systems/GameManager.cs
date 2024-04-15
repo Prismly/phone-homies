@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     //[SerializeField] private Translations translation;
     [SerializeField] private Sprite earthIcon;
 
+    [SerializeField] private Symbol[] goalMessage;
+
     private void Awake()
     {
         if (Instance == null)
@@ -44,14 +46,13 @@ public class GameManager : MonoBehaviour
 
     // For when someone sends a Message
     // This function is where big O times go to die
-    public void TransmitMessage(Symbol[] message)
+    public void TransmitMessage(Symbol[] message, Species caller)
     {
-        MessageLog.Instance.AddMessage();
         TransmitBox.Instance.ConfirmButton.interactable = false;
-        StartCoroutine(ProcessGlyphString(message, 1));
+        StartCoroutine(ProcessGlyphString(message, 1, true, null, caller));
     }
 
-    private IEnumerator ProcessGlyphString(Symbol[] message, int substringLen)
+    private IEnumerator ProcessGlyphString(Symbol[] message, int substringLen, bool doChecks, Species responder, Species caller)
     {
         Symbol[] workingString = new Symbol[substringLen];
         for(int i = 0; i < substringLen; i++)
@@ -60,18 +61,20 @@ public class GameManager : MonoBehaviour
         }
 
         Dictionary<Species, int> hooksThisGlyph = new Dictionary<Species, int>();
-
-        foreach (Species s in species)
+        if (doChecks)
         {
-            int hookCount = s.CheckHooks(workingString);
-            if (hookCount > 0)
-                hooksThisGlyph.Add(s, hookCount);
+            foreach (Species s in species)
+            {
+                int hookCount = s.CheckHooks(workingString);
+                if (hookCount > 0)
+                    hooksThisGlyph.Add(s, hookCount);
+            }
         }
 
         // Spawn new Glyph within Message
         MessageLog.Instance.GetBottomMessage().ChangeSymbol(workingString[workingString.Length - 1], workingString.Length - 1);
 
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(doChecks ? 0.75f : 0.1f);
 
         while (hooksThisGlyph.Count > 0)
         {
@@ -80,20 +83,77 @@ public class GameManager : MonoBehaviour
                 if (hooksThisGlyph.ContainsKey(s))
                 {
                     // Trigger the hook bubble anim
-                    Debug.Log("HOOK ON ITERATION " + substringLen + " FROM SPECIES " + s.SpeciesColor);
+                    s.HooksThisCycle++;
+                    s.ShowHookNotice();
+                    if (s.HooksThisCycle >= 3)
+                    {
+                        // This is the species that's responding
+                        responder = s;
+                        s.ShowPortrait();
+                        ClearSpeciesData(false);
+                        break;
+                    }
+                    //Debug.Log("HOOK ON ITERATION " + substringLen + " FROM SPECIES " + s.SpeciesColor);
                     hooksThisGlyph[s] -= 1;
                     if (hooksThisGlyph[s] <= 0)
                         hooksThisGlyph.Remove(s);
                 }
             }
+            if (responder != null)
+                break;
             yield return new WaitForSeconds(0.5f);
         }
 
         if (substringLen < message.Length)
-            StartCoroutine(ProcessGlyphString(message, substringLen + 1));
+            StartCoroutine(ProcessGlyphString(message, substringLen + 1, responder == null, responder, caller));
         else
-            // Recursion is done; ending stuff
+        {
             TransmitBox.Instance.ConfirmButton.interactable = true;
+
+            bool match = true;
+            for (int i = 0; i < 6; i++)
+            {
+                if (message[i] != goalMessage[i])
+                {
+                    match = false;
+                    break;
+                }
+            }
+
+            if (match && caller != null)
+            {
+                caller.ShowShip();
+            }
+
+            // Actually send a message if responder is not null
+            if (responder != null)
+            {
+                responder.RespondedThisCycle = true;
+                responder.CraftResponse(message);
+            }
+            else
+            {
+                ClearSpeciesData(true);
+            }
+        }
+            
+    }
+
+    public void ClearSpeciesData(bool deepClear)
+    {
+        foreach(Species s in species)
+        {
+            for (int i = 0; i < s.HookUsedFlags.Length; i++)
+            {
+                s.HookUsedFlags[i] = false;
+            }
+            s.HooksThisCycle = 0;
+            if (deepClear)
+            {
+                s.RespondedThisCycle = false;
+                s.HidePortrait();
+            }
+        }
     }
 
     public void Win()

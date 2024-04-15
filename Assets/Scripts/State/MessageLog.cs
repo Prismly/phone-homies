@@ -12,7 +12,7 @@ public class MessageLog : MonoBehaviour
     [SerializeField] private Sprite earthIcon;
     [SerializeField] private GameObject playerMessagePref;
     [SerializeField] private GameObject alienMessagePref;
-    [SerializeField] private float messageHeight = 38;
+    [SerializeField] private float messageHeight = 38 * 2 / 3f;
 
     public List<Message> MessageList = new List<Message>();
 
@@ -32,6 +32,8 @@ public class MessageLog : MonoBehaviour
     {
         GameObject newMessageObj = Instantiate(playerMessagePref);
         newMessageObj.transform.SetParent(transform, false);
+        RectTransform newMessageRect = newMessageObj.GetComponent<RectTransform>();
+        newMessageRect.localScale = Vector3.one * 2f / 3f;
         Message newMessage = newMessageObj.GetComponent<Message>();
         newMessage.SetSenderIcon(earthIcon);
         MessageList.Add(newMessage);
@@ -39,15 +41,19 @@ public class MessageLog : MonoBehaviour
         UpdateScrollRectHeight();
     }
 
-    public void AddMessage(Species sender)
+    public Message AddMessage(Species sender)
     {
         GameObject newMessageObj = Instantiate(alienMessagePref);
         newMessageObj.transform.SetParent(transform, false);
+        RectTransform newMessageRect = newMessageObj.GetComponent<RectTransform>();
+        newMessageRect.localScale = Vector3.one * 2f / 3f;
         Message newMessage = newMessageObj.GetComponent<Message>();
         newMessage.SetSenderIcon(sender.MessageIcon);
         MessageList.Add(newMessage);
 
         UpdateScrollRectHeight();
+
+        return newMessage;
     }
 
     public Message GetBottomMessage()

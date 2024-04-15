@@ -392,6 +392,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_Name
       value: Glyph (UI) (5)
@@ -503,6 +507,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4332353432651043408, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
@@ -618,6 +626,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_Name
       value: Glyph (UI)
@@ -729,6 +741,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4332353432651043408, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
@@ -844,6 +860,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_Name
       value: Glyph (UI) (4)
@@ -955,6 +975,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4332353432651043408, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}

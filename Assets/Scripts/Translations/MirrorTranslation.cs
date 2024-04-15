@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Translations/Mirror")]
 public class MirrorTranslation : Translation
 {
-    public override Symbol[] changeInput(Symbol[] message)
+    public override Symbol[] ChangeInput(Symbol[] message)
     {
         Array.Reverse(message);
         return message;

@@ -7,7 +7,7 @@ public class ShiftTranslation : Translation
 {
     [SerializeField] private int magnitude;
 
-    public override Symbol[] changeInput(Symbol[] message)
+    public override Symbol[] ChangeInput(Symbol[] message)
     {
         for (int i = 0; i < message.Length; i++)
         {

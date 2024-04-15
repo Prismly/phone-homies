@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Translations/Pair Flip")]
 public class PairFlipTranslation : Translation
 {
-    public override Symbol[] changeInput(Symbol[] message)
+    public override Symbol[] ChangeInput(Symbol[] message)
     {
         for (int i = 0; i < message.Length; i++)
         {
