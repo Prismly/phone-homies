@@ -464,7 +464,7 @@ MonoBehaviour:
   faceSprite: {fileID: 2034187659}
   portraitBubble: {fileID: 300893640}
   shipSprite: {fileID: 848093340}
-  messageIcon: {fileID: -8429225744726902070, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  MessageIcon: {fileID: 0}
   debugKey: 112
   HooksThisCycle: 0
   RespondedThisCycle: 0
@@ -574,6 +574,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape
       value: 5
       objectReference: {fileID: 0}
@@ -677,7 +681,7 @@ MonoBehaviour:
   faceSprite: {fileID: 983877254}
   portraitBubble: {fileID: 1979943333}
   shipSprite: {fileID: 1470578096}
-  messageIcon: {fileID: 1563896104494860875, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  MessageIcon: {fileID: 0}
   debugKey: 114
   HooksThisCycle: 0
   RespondedThisCycle: 0
@@ -879,7 +883,7 @@ MonoBehaviour:
   faceSprite: {fileID: 442583841}
   portraitBubble: {fileID: 1466317580}
   shipSprite: {fileID: 1417563025}
-  messageIcon: {fileID: -3846811114305460085, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  MessageIcon: {fileID: 0}
   debugKey: 98
   HooksThisCycle: 0
   RespondedThisCycle: 0
@@ -1393,6 +1397,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape
       value: 1
       objectReference: {fileID: 0}
@@ -1762,7 +1770,7 @@ GameObject:
   - component: {fileID: 308603772}
   - component: {fileID: 308603774}
   m_Layer: 5
-  m_Name: Input Box
+  m_Name: Transmit Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1850,6 +1858,7 @@ MonoBehaviour:
   - {fileID: 1574059870}
   glyphUIPref: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
   glyphArray: {fileID: 163815497}
+  ConfirmButton: {fileID: 1620538844}
 --- !u!1 &356454049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,7 +2843,7 @@ MonoBehaviour:
   faceSprite: {fileID: 907768995}
   portraitBubble: {fileID: 1234782868}
   shipSprite: {fileID: 1906522671}
-  messageIcon: {fileID: 7989714816490877628, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  MessageIcon: {fileID: 0}
   debugKey: 111
   HooksThisCycle: 0
   RespondedThisCycle: 0
@@ -2890,7 +2899,7 @@ MonoBehaviour:
   faceSprite: {fileID: 447080478}
   portraitBubble: {fileID: 223632852}
   shipSprite: {fileID: 2014605357}
-  messageIcon: {fileID: 6067923234783853592, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  MessageIcon: {fileID: 0}
   debugKey: 103
   HooksThisCycle: 0
   RespondedThisCycle: 0
@@ -2986,6 +2995,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07f84ad4061f9cc4490fbe1866a3b4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollRect: {fileID: 233466944}
+  earthIcon: {fileID: 3142981517713911096, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  playerMessagePref: {fileID: 7798352297251384557, guid: 14a87442505f9e84bb69632683d93929, type: 3}
+  alienMessagePref: {fileID: 2712295494548258823, guid: 8c29cdd6573fc1244ab3b4d2fde2857f, type: 3}
+  messageHeight: 38
+  MessageList: []
 --- !u!1 &778604577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,6 +3562,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape
       value: 6
       objectReference: {fileID: 0}
@@ -3917,6 +3936,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape
       value: 4
       objectReference: {fileID: 0}
@@ -4050,7 +4073,7 @@ MonoBehaviour:
   faceSprite: {fileID: 442023620}
   portraitBubble: {fileID: 1578996679}
   shipSprite: {fileID: 620666373}
-  messageIcon: {fileID: 7576185790519817931, guid: 58787cb912c83be4b9ed39054c219ff4, type: 3}
+  MessageIcon: {fileID: 0}
   debugKey: 121
   HooksThisCycle: 0
   RespondedThisCycle: 0
@@ -4613,6 +4636,10 @@ PrefabInstance:
     - target: {fileID: 4332353432651043408, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8804360530679758811, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_Name
@@ -6060,6 +6087,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape
       value: 7
       objectReference: {fileID: 0}
@@ -6349,7 +6380,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: -5935740095445839971, guid: 041f9628875caf6469225d7f50bca9d6, type: 3}
     m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: -5935740095445839971, guid: 041f9628875caf6469225d7f50bca9d6, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -6360,7 +6391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1620538845}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 308603774}
+        m_TargetAssemblyTypeName: TransmitBox, Assembly-CSharp
+        m_MethodName: ConfirmGlyphs
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1620538845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7179,6 +7222,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape
       value: 2
       objectReference: {fileID: 0}
@@ -7294,6 +7341,10 @@ PrefabInstance:
     - target: {fileID: 4332353432651043408, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
+      propertyPath: isVisible
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4812544895012305840, guid: 257d132c4ad095f408e3fa88f684c506, type: 3}
       propertyPath: symbol.Shape

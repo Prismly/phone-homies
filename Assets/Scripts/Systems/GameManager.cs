@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -20,31 +21,27 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            Symbol[] testMessage = new Symbol[6];
-            testMessage[0] = new Symbol(Symbol.Shapes.PLANET, Symbol.Colors.RED);
-            testMessage[1] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
-            testMessage[2] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
-            testMessage[3] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
-            testMessage[4] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
-            testMessage[5] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.ORANGE);
-            TransmitMessage(testMessage, species[0]);
-        }
-    }
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.V))
+    //    {
+    //        Symbol[] testMessage = new Symbol[6];
+    //        testMessage[0] = new Symbol(Symbol.Shapes.PLANET, Symbol.Colors.RED);
+    //        testMessage[1] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
+    //        testMessage[2] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
+    //        testMessage[3] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
+    //        testMessage[4] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.RED);
+    //        testMessage[5] = new Symbol(Symbol.Shapes.COMET, Symbol.Colors.ORANGE);
+    //        TransmitMessage(testMessage);
+    //    }
+    //}
 
-    // For when the player sends a Message
+    // For when someone sends a Message
+    // This function is where big O times go to die
     public void TransmitMessage(Symbol[] message)
     {
-
-    }
-
-    // For when an alien sends a Message
-    // This function is where big O times go to die
-    public void TransmitMessage(Symbol[] message, Species sender)
-    {
+        MessageLog.Instance.AddMessage();
+        TransmitBox.Instance.ConfirmButton.interactable = false;
         StartCoroutine(ProcessGlyphString(message, 1));
     }
 
@@ -66,8 +63,9 @@ public class GameManager : MonoBehaviour
         }
 
         // Spawn new Glyph within Message
+        MessageLog.Instance.GetBottomMessage().ChangeSymbol(workingString[workingString.Length - 1], workingString.Length - 1);
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.75f);
 
         while (hooksThisGlyph.Count > 0)
         {
@@ -82,11 +80,14 @@ public class GameManager : MonoBehaviour
                         hooksThisGlyph.Remove(s);
                 }
             }
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
         }
 
         if (substringLen < message.Length)
             StartCoroutine(ProcessGlyphString(message, substringLen + 1));
+        else
+            // Recursion is done; ending stuff
+            TransmitBox.Instance.ConfirmButton.interactable = true;
     }
 
     public void Win()

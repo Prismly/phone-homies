@@ -22,6 +22,9 @@ public class TransmitBox : MonoBehaviour
     [SerializeField] private GlyphUI[] glyphButtonIcons;
     [SerializeField] private GameObject glyphUIPref;
     [SerializeField] private RectTransform glyphArray;
+
+    [SerializeField] public Button ConfirmButton;
+
     List<GlyphUI> bufferedMessage = new List<GlyphUI>();
 
     private void Start()
@@ -50,6 +53,16 @@ public class TransmitBox : MonoBehaviour
         bufferedMessage.RemoveAt(bufferedMessage.Count - 1);
     }
 
+    private void ClearAllGlyphs()
+    {
+        int glyphsToRemove = bufferedMessage.Count;
+        for (int i = 0; i < glyphsToRemove; i++)
+        {
+            Destroy(bufferedMessage.Last().gameObject);
+            bufferedMessage.RemoveAt(bufferedMessage.Count - 1);
+        }
+    }
+
     public bool AppendGlyph(Symbol.Shapes shape, Symbol.Colors color)
     {
         if (bufferedMessage.Count >= 6)
@@ -66,8 +79,18 @@ public class TransmitBox : MonoBehaviour
         return true;
     }
 
-    public void SendMessage()
+    public void ConfirmGlyphs()
     {
+        if (bufferedMessage.Count != 6)
+            return;
 
+        Symbol[] message = new Symbol[6];
+        for (int i = 0; i < 6; i++)
+            message[i] = bufferedMessage[i].GetSymbol();
+
+        ClearAllGlyphs();
+
+        // Transmit Message to the GameManager here!
+        GameManager.Instance.TransmitMessage(message);
     }
 }

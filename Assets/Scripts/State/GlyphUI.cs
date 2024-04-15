@@ -5,11 +5,18 @@ using UnityEngine.UI;
 
 public class GlyphUI : MonoBehaviour
 {
+    [SerializeField] private bool isVisible;
+
     [SerializeField] private Symbol symbol;
 
     [SerializeField] private Image shapeImg;
     [SerializeField] private Image outlineImg;
     [SerializeField] private Image patternImg;
+
+    private void Awake()
+    {
+        SetVisible(isVisible);
+    }
 
     //private void Update()
     //{
@@ -42,6 +49,8 @@ public class GlyphUI : MonoBehaviour
         patternImg.sprite = colorData.ColorblindPattern;
     }
 
+    public Symbol GetSymbol() { return symbol; }
+
     public Symbol.Shapes GetShape()
     {
         return symbol.Shape;
@@ -50,5 +59,12 @@ public class GlyphUI : MonoBehaviour
     public Symbol.Colors GetColor()
     {
         return symbol.Color;
+    }
+
+    public void SetVisible(bool visible)
+    {
+        shapeImg.enabled = visible;
+        outlineImg.enabled = visible;
+        patternImg.enabled = visible;
     }
 }

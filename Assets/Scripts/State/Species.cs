@@ -12,7 +12,7 @@ public class Species : MonoBehaviour
     [SerializeField] private SpriteRenderer faceSprite;
     [SerializeField] private Animator portraitBubble;
     [SerializeField] private SpriteRenderer shipSprite;
-    [SerializeField] private Sprite messageIcon;
+    [SerializeField] public Sprite MessageIcon;
     [SerializeField] private KeyCode debugKey;
 
     private bool[] hookUsedFlags;
