@@ -1371,7 +1371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   species: []
-  translation: {fileID: 11400000, guid: fbe35d5a4338f3d40b271dcd96c4d8bc, type: 2}
+  translation: {fileID: 11400000, guid: 7f1d3627ecda31a48a3aa9e12bdb2fac, type: 2}
 --- !u!4 &467688277
 Transform:
   m_ObjectHideFlags: 0
