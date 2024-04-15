@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class MinimumHook : Hooks
+[CreateAssetMenu(menuName = "Hooks/Contains Shape")]
+public class MinimumHook : Hook
 {
     [SerializeField] private Traits.Shapes shape;
 

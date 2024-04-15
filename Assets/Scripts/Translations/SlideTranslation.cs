@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class SlideTranslation : Translations
+[CreateAssetMenu(menuName = "Translations/Slide")]
+public class SlideTranslation : Translation
 {
     [SerializeField] private int magnitude;
 

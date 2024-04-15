@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecc5ca64ce3da164e97e7118342ae30f
+guid: 193aec5046c3b7340b0a8847500273af
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638487347539574768
+  platformSettingsDirtyTick: 638487349368818461
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: alien_portraits1
+  - name: stars
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 160
-      height: 445
-    spriteID: 66a2bff6b0d3c1b418785179bbdda0c1
+      width: 18
+      height: 3
+    spriteID: e88d416c8638b5c499e872a54f8fbecc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,207 +142,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: alien_portraits1_0
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 379
-      width: 80
-      height: 75
-    spriteID: c73691a60b723e846974ceaba145ad7f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 379
-      width: 80
-      height: 75
-    spriteID: 15f41bd876983c64ca244fb5342b9b8b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 304
-      width: 80
-      height: 75
-    spriteID: 30d66af9fcfd18943a2cfaeca4409510
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 304
-      width: 80
-      height: 75
-    spriteID: f9412dccf58a63742bf00a248bcfb5e9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 229
-      width: 80
-      height: 75
-    spriteID: bec608f3681578340be86c9da22b66b6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 229
-      width: 80
-      height: 75
-    spriteID: d0a385a2531158b408b760bdf5144f79
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 154
-      width: 80
-      height: 75
-    spriteID: 92d0805dd08b90747b4801222b78f83d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_7
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 154
-      width: 80
-      height: 75
-    spriteID: f25ec701832f6504ab6475eabda0b2e6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_8
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 79
-      width: 80
-      height: 75
-    spriteID: be7ec122f8ed88a42b9241d2de34892a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_9
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 79
-      width: 80
-      height: 75
-    spriteID: 13f9771c955961c4e80ebe89f519db3d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_10
+  - name: stars_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -351,9 +151,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 80
-      height: 75
-    spriteID: 4b997be456ea0b64c9aae79bb45cab0e
+      width: 3
+      height: 3
+    spriteID: 25668198a539f9b4b84cd50f363ce08d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -362,18 +162,98 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: alien_portraits1_11
+  - name: stars_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 84
+      x: 7
       y: 4
-      width: 80
-      height: 75
-    spriteID: ac9b1a356afb43c48816212521d399bc
+      width: 3
+      height: 3
+    spriteID: a1740a12e2fa2564fae1037720609a8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: stars_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10
+      y: 4
+      width: 3
+      height: 3
+    spriteID: 1244d972ab330174f9c6bcd13d36c59c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: stars_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 13
+      y: 4
+      width: 3
+      height: 3
+    spriteID: 36eab41fc06a11f4492de2dc6a0f027d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: stars_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 4
+      width: 3
+      height: 3
+    spriteID: 3df47f9d24d840b48ab95d15ce32adc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: stars_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 19
+      y: 4
+      width: 3
+      height: 3
+    spriteID: 4f5ccd8ce04738449a3c99994183099e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -384,20 +264,20 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -617243967
-    name: alien_portraits1
+    guid: 1042539447
+    name: stars
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: alien_portraits1
+    - name: stars
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 160
-        height: 445
-      spriteId: 66a2bff6b0d3c1b418785179bbdda0c1
+        width: 18
+        height: 3
+      spriteId: e88d416c8638b5c499e872a54f8fbecc
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -428,4 +308,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 160, y: 450}
+  canvasSize: {x: 18, y: 3}

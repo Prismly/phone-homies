@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class ColorHook : Hooks
+[CreateAssetMenu(menuName = "Hooks/Contains Color")]
+public class ColorHook : Hook
 {
     [SerializeField] private Traits.Colors color;
 

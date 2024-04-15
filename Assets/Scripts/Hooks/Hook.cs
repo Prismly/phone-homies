@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public abstract class Hooks : ScriptableObject
+
+public abstract class Hook : ScriptableObject
 {
     [SerializeField] public List<Traits> message;
 

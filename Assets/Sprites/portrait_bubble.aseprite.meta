@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 16
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638486284501892058
+  platformSettingsDirtyTick: 638487347647174349
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: speech_bubble
+  - name: portrait_bubble_Frame_0
     originalName: 
     pivot: {x: -0.83333343, y: 1.763158}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 455
       width: 24
       height: 19
-    spriteID: c8d46d48f77b3cd43875940175f2d391
+    spriteID: ea84aa2bc8e8fbb4a9bd6fdaa3ce0c82
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 55, y: 455}
-  - name: speech_bubble_Frame_1
+  - name: portrait_bubble_Frame_1
     originalName: 
     pivot: {x: -0.023255792, y: 1.0142857}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 455
       width: 43
       height: 35
-    spriteID: 382173cc41a46914fbe70213d27ebcad
+    spriteID: 4b13c19a0e2e4944ab2342b81cc972cb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 455}
-  - name: speech_bubble_Frame_2
+  - name: portrait_bubble_Frame_2
     originalName: 
     pivot: {x: 0.2903226, y: 0.7129629}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 82
       width: 62
       height: 54
-    spriteID: ba7b338cad5ddb648b9fd023c84e44ae
+    spriteID: 1dbf6269c29b3ec45b6bef39efe06183
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 100, y: 82}
-  - name: speech_bubble_Frame_3
+  - name: portrait_bubble_Frame_3
     originalName: 
     pivot: {x: 0.42857146, y: 0.5928571}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 77
       height: 70
-    spriteID: 79c7cf4898dfb254587dee09eeaae2ca
+    spriteID: 10fa146d494b9bf4f9b02acdb4d2c1a8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 100, y: 4}
-  - name: speech_bubble_Frame_4
+  - name: portrait_bubble_Frame_4
     originalName: 
     pivot: {x: 0.47619048, y: 0.5123457}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 277
       width: 84
       height: 81
-    spriteID: edba4d24da41fe244a9be8dfd9ed03de
+    spriteID: 44b216c9509b398458f6ea87181f3155
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 277}
-  - name: speech_bubble_Frame_5
+  - name: portrait_bubble_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 9
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 4
       width: 88
       height: 83
-    spriteID: 6bf7810d43d92ac458cd72afecb9ebf1
+    spriteID: 399f9ecddfe384248a318665bd3adcf4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: speech_bubble_Frame_6
+  - name: portrait_bubble_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 9
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 95
       width: 88
       height: 83
-    spriteID: fa50ffdf252f0ee4f8edc6adbbdfe49c
+    spriteID: 61a6d23d360bad34c85713d524a428d3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -261,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 95}
-  - name: speech_bubble_Frame_7
+  - name: portrait_bubble_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 9
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 186
       width: 88
       height: 83
-    spriteID: 130b2899bbde83f46a80bca44cf421f0
+    spriteID: f3ed47461f907f840baba737a0b1ad87
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -281,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 186}
-  - name: speech_bubble_Frame_8
+  - name: portrait_bubble_Frame_8
     originalName: 
     pivot: {x: 0.47619048, y: 0.5123457}
     alignment: 9
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 366
       width: 84
       height: 81
-    spriteID: 702398c73d8b81144a1dd48c09758a83
+    spriteID: eea4dd8c0b6a1614b91bb29f15f4ed9e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -304,84 +304,84 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1819523411
-    name: speech_bubble
+    guid: 2146619140
+    name: portrait_bubble
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: speech_bubble_Frame_0
+    - name: portrait_bubble_Frame_0
       frameIndex: 0
       cellRect:
         x: 64
         y: 8
         width: 24
         height: 19
-      spriteId: c8d46d48f77b3cd43875940175f2d391
-    - name: speech_bubble_Frame_1
+      spriteId: ea84aa2bc8e8fbb4a9bd6fdaa3ce0c82
+    - name: portrait_bubble_Frame_1
       frameIndex: 1
       cellRect:
         x: 45
         y: 6
         width: 43
         height: 35
-      spriteId: 382173cc41a46914fbe70213d27ebcad
-    - name: speech_bubble_Frame_2
+      spriteId: 4b13c19a0e2e4944ab2342b81cc972cb
+    - name: portrait_bubble_Frame_2
       frameIndex: 2
       cellRect:
         x: 26
         y: 3
         width: 62
         height: 54
-      spriteId: ba7b338cad5ddb648b9fd023c84e44ae
-    - name: speech_bubble_Frame_3
+      spriteId: 1dbf6269c29b3ec45b6bef39efe06183
+    - name: portrait_bubble_Frame_3
       frameIndex: 3
       cellRect:
         x: 11
         y: 0
         width: 77
         height: 70
-      spriteId: 79c7cf4898dfb254587dee09eeaae2ca
-    - name: speech_bubble_Frame_4
+      spriteId: 10fa146d494b9bf4f9b02acdb4d2c1a8
+    - name: portrait_bubble_Frame_4
       frameIndex: 4
       cellRect:
         x: 4
         y: 0
         width: 84
         height: 81
-      spriteId: edba4d24da41fe244a9be8dfd9ed03de
-    - name: speech_bubble_Frame_5
+      spriteId: 44b216c9509b398458f6ea87181f3155
+    - name: portrait_bubble_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 0
         width: 88
         height: 83
-      spriteId: 6bf7810d43d92ac458cd72afecb9ebf1
-    - name: speech_bubble_Frame_6
+      spriteId: 399f9ecddfe384248a318665bd3adcf4
+    - name: portrait_bubble_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
         y: 0
         width: 88
         height: 83
-      spriteId: fa50ffdf252f0ee4f8edc6adbbdfe49c
-    - name: speech_bubble_Frame_7
+      spriteId: 61a6d23d360bad34c85713d524a428d3
+    - name: portrait_bubble_Frame_7
       frameIndex: 7
       cellRect:
         x: 0
         y: 0
         width: 88
         height: 83
-      spriteId: 130b2899bbde83f46a80bca44cf421f0
-    - name: speech_bubble_Frame_8
+      spriteId: f3ed47461f907f840baba737a0b1ad87
+    - name: portrait_bubble_Frame_8
       frameIndex: 8
       cellRect:
         x: 4
         y: 0
         width: 84
         height: 81
-      spriteId: 702398c73d8b81144a1dd48c09758a83
+      spriteId: eea4dd8c0b6a1614b91bb29f15f4ed9e
     linkedCells: []
     parentIndex: -1
   platformSettings:

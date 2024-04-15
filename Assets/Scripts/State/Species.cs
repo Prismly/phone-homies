@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Species : MonoBehaviour
 {
-    [SerializeField] public int priority;
-    [SerializeField] public List<Translations> translations;
-    [SerializeField] public Traits.Colors allegiance;
+    [SerializeField] public List<Translation> translations;
+    [SerializeField] public List<Hook> hooks;
 
     public bool ConsiderMessage()
     {

@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class ShiftTranslation : Translations
+[CreateAssetMenu(menuName = "Translations/Shift")]
+public class ShiftTranslation : Translation
 {
     [SerializeField] private int magnitude;
 

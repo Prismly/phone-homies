@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class PairFlipTranslation : Translations
+[CreateAssetMenu(menuName = "Translations/Pair Flip")]
+public class PairFlipTranslation : Translation
 {
     public override Traits[] changeInput(Traits[] message)
     {

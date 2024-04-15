@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
 
-public class DoesNotContainHook : Hooks
+[CreateAssetMenu(menuName = "Hooks/Does Not Contain Shape")]
+public class DoesNotContainHook : Hook
 {
     [SerializeField] private Traits.Shapes shape;
 
