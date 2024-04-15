@@ -6,6 +6,7 @@ public class Species : MonoBehaviour
 {
     [SerializeField] public int priority;
     [SerializeField] public List<Translations> translations;
+    [SerializeField] public Traits.Colors allegiance;
 
     public bool ConsiderMessage()
     {
