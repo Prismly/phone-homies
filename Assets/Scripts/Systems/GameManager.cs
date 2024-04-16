@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
         // Spawn new Glyph within Message
         MessageLog.Instance.GetBottomMessage().ChangeSymbol(workingString[workingString.Length - 1], workingString.Length - 1);
 
-        yield return new WaitForSeconds(doChecks ? 0.75f : 0.1f);
+        yield return new WaitForSeconds(doChecks ? 0.5f : 0.1f);
 
         while (hooksThisGlyph.Count > 0)
         {
@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour
             }
             if (responder != null)
                 break;
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.3f);
         }
 
         if (substringLen < message.Length)
@@ -113,7 +113,7 @@ public class GameManager : MonoBehaviour
             bool match = true;
             for (int i = 0; i < 6; i++)
             {
-                if (message[i] != goalMessage[i])
+                if (message[i].Color != goalMessage[i].Color || message[i].Shape != goalMessage[i].Shape)
                 {
                     match = false;
                     break;

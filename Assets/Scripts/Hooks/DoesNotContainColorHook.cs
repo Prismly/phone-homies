@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Hooks/Does Not Contain Shape")]
-public class DoesNotContainHook : Hook
+[CreateAssetMenu(menuName = "Hooks/Does Not Contain Color")]
+public class DoesNotContainColorHook : Hook
 {
-    [SerializeField] private Symbol.Shapes shape;
+    [SerializeField] private Symbol.Colors color;
 
     public override bool Consider(Symbol[] message)
     {
@@ -15,7 +15,7 @@ public class DoesNotContainHook : Hook
 
         for (int i = 0; i < message.Length; i++)
         {
-            if (message[i].Shape != shape)
+            if (message[i].Color != color)
             {
                 return true;
             }

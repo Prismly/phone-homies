@@ -12,7 +12,7 @@ public class MessageLog : MonoBehaviour
     [SerializeField] private Sprite earthIcon;
     [SerializeField] private GameObject playerMessagePref;
     [SerializeField] private GameObject alienMessagePref;
-    [SerializeField] private float messageHeight = 38 * 2 / 3f;
+    private float messageHeight = 38 * 0.66f;
 
     public List<Message> MessageList = new List<Message>();
 
@@ -63,6 +63,7 @@ public class MessageLog : MonoBehaviour
 
     private void UpdateScrollRectHeight()
     {
+        Debug.Log(messageHeight);
         myRect.sizeDelta = new Vector2(myRect.sizeDelta.x, messageHeight * MessageList.Count);
         scrollRect.normalizedPosition = new Vector2(0, 0);
     }

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d13e92904eaf224da212821d70dea3c, type: 3}
-  m_Name: Slide 2
+  m_Script: {fileID: 11500000, guid: 29c10d5f56185f04bbb50244612fcbca, type: 3}
+  m_Name: Color Shift
   m_EditorClassIdentifier: 
   magnitude: 5
