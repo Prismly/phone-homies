@@ -10,6 +10,11 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void OptionsMenu()
+    {
+        SceneManager.LoadScene("Options");
+    }
+
     public void CloseGame()
     {
         Application.Quit();
