@@ -795,7 +795,7 @@ MonoBehaviour:
   Hooks:
   - {fileID: 11400000, guid: 9fa3753e750cc644987dc9d2ae3acc75, type: 2}
   - {fileID: 11400000, guid: 5887e9e9de797974593e646f45b905f8, type: 2}
-  - {fileID: 11400000, guid: 5232b9da76b7d7b44918813d4a8c676b, type: 2}
+  - {fileID: 11400000, guid: 10deed3e2709fef4f98c82a1c9fdda88, type: 2}
   faceSprite: {fileID: 983877254}
   portraitBubble: {fileID: 1979943333}
   shipRend: {fileID: 1470578096}
@@ -3101,7 +3101,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d3a9d3220d099964396f4779e9de3c31, type: 2}
   - {fileID: 11400000, guid: 6f4aa12210f6c3340ae35efb8a351359, type: 2}
   - {fileID: 11400000, guid: 10deed3e2709fef4f98c82a1c9fdda88, type: 2}
-  - {fileID: 11400000, guid: 5232b9da76b7d7b44918813d4a8c676b, type: 2}
+  - {fileID: 11400000, guid: 10deed3e2709fef4f98c82a1c9fdda88, type: 2}
   - {fileID: 11400000, guid: 5887e9e9de797974593e646f45b905f8, type: 2}
   - {fileID: 11400000, guid: 25f36e27af404f748bc716ab9bcd6efe, type: 2}
   - {fileID: 11400000, guid: f0c8ee8fa256c674082565b1d4ba6312, type: 2}
@@ -3276,8 +3276,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0703ba95150b822488dae889f85d46d3, type: 2}
   Hooks:
   - {fileID: 11400000, guid: c44db59516ce9864abafbf5890f059de, type: 2}
-  - {fileID: 11400000, guid: 5232b9da76b7d7b44918813d4a8c676b, type: 2}
   - {fileID: 11400000, guid: d3a9d3220d099964396f4779e9de3c31, type: 2}
+  - {fileID: 11400000, guid: 5232b9da76b7d7b44918813d4a8c676b, type: 2}
+  - {fileID: 11400000, guid: 5232b9da76b7d7b44918813d4a8c676b, type: 2}
+  - {fileID: 11400000, guid: 25f36e27af404f748bc716ab9bcd6efe, type: 2}
   faceSprite: {fileID: 447080478}
   portraitBubble: {fileID: 223632852}
   shipRend: {fileID: 2014605357}
