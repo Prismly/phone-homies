@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LineColor: {r: 0.56078434, g: 0.34117648, b: 0.19607843, a: 1}
   OutlineColor: {r: 0.9019608, g: 0.77254903, b: 0.45882353, a: 1}
-  ColorblindPattern: {fileID: 0}
+  ColorblindPattern: {fileID: -1014320001867507556, guid: 26d1e6bbe00a45948ab28334ca66f8f3, type: 3}

@@ -18,6 +18,12 @@ public class GlyphUI : MonoBehaviour
         SetVisible(isVisible);
     }
 
+    private void Start()
+    {
+        SetTraits(symbol.Shape, symbol.Color);
+        patternImg.color = Settings.colorblind ? Color.white : Color.clear;
+    }
+
     //private void Update()
     //{
     //    if (Input.GetKeyDown(KeyCode.A))
